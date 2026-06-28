@@ -1,0 +1,11 @@
+pandas
+numpy
+statsmodels
+linearmodels
+scikit-learn
+matplotlib
+requests
+jupyter
+econml
+doubleml
+rdrobust
