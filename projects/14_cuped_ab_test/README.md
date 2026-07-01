@@ -49,8 +49,8 @@ A pre/post correlation of 0.7 gives ~50% variance reduction — equivalent to
 doubling your sample size for free.
 
 ## Planned Outputs
-- [ ] Synthetic data generation and EDA
-- [ ] Standard A/B test estimate (naive difference in means + CI)
+- [X] Synthetic data generation and EDA
+- [X] Standard A/B test estimate (naive difference in means + CI)
 - [ ] CUPED adjustment (θ estimation, adjusted outcome)
 - [ ] CUPED ATT estimate + CI
 - [ ] Side-by-side comparison: naive vs CUPED CI width
