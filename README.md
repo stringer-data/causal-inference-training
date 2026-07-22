@@ -20,6 +20,9 @@ Run `python scripts/download_data.py` to fetch all datasets before opening noteb
 | 8 | [Email Marketing Uplift](projects/08_causal_forest_hillstrom_email/) | Causal Forest / Uplift | Hillstrom email marketing challenge | Which customers benefit most from marketing emails? | `econml`, `causalml` |
 | 9 | [Geo Lift on Air Travel](projects/09_geo_experiment_air_travel/) | Geo Experiment | TSA passenger throughput | Can we simulate a geo lift experiment on travel demand? | `pandas`, `statsmodels` |
 | 10 | [Marijuana Legalization Effects](projects/10_staggered_did_marijuana_policy/) | Staggered DiD | Marijuana legalization dates + BLS outcomes | What happens to labor outcomes after staggered policy adoption? | `linearmodels`, `pyfixest` |
+| 11 | [German Reunification & GDP](projects/05_synthetic_control/german_reunification/) | Synthetic Control | OECD country panel (Abadie, Diamond & Hainmueller 2015) | Did German reunification depress West German GDP per capita? | `pysyncon`, `scipy` |
+| 12 | [Basque Terrorism & GDP](projects/05_synthetic_control/basque_terrorism/) | Synthetic Control | Spanish region panel (Abadie & Gardeazabal 2003) | Did ETA terrorism reduce the Basque Country's GDP per capita? | `pysyncon`, `scipy` |
+| 13 | [Texas Prison Construction & Incarceration](projects/05_synthetic_control/texas_prison_incarceration/) | Synthetic Control | State panel (Cunningham, *Causal Inference: The Mixtape*) | Did Texas's prison construction program raise Black male incarceration rates? | `pysyncon`, `scipy` |
 
 ---
 
@@ -65,6 +68,10 @@ All datasets are either:
 - **Manual download** — a `SOURCE_NOTE.md` in `data/raw/` explains exactly where to go and what to download.
 
 No data files are bundled in this repo. See `DATA_SOURCES.md` for the full source list.
+
+## Reading List
+
+See [ARTICLES.md](ARTICLES.md) for a curated collection of industry/research articles on causal inference worth referring back to.
 
 ## Methods Covered
 
